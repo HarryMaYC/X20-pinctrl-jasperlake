@@ -1,0 +1,14 @@
+Source: pinctrl-jasperlake
+Section: kernel
+Priority: optional
+Maintainer: wutengfei <utengfei@foxmail.com>
+Build-Depends: debhelper-compat (= 13)
+Standards-Version: 4.5.1
+Homepage: https://git.kernel.org/pub/scm/linux/kernel/git/stable/linux.git/tree/drivers/pinctrl/intel
+Rules-Requires-Root: no
+
+Package: pinctrl-jasperlake
+Architecture: amd64
+Depends: dkms,build-essential,libelf-dev
+Description: Intel Jasper Lake PCH pinctrl/GPIO driver
+  

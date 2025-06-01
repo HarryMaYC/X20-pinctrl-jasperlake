@@ -1,0 +1,5 @@
+pinctrl-jasperlake (1.0-1) stable; urgency=low
+
+  * Initial release.
+
+ -- wutengfei <utengfei@foxmail.com>  Sun, 01 Jun 2025 16:47:24 +0800
